@@ -11,7 +11,7 @@ export class MockAIService {
     await new Promise(resolve => setTimeout(resolve, delay));
     
     const { text } = request;
-    const lines = text.toLowerCase().split('\n').filter(line => line.trim());
+    // const lines = text.toLowerCase().split('\n').filter(line => line.trim());
     
     // Extract amounts with improved logic
     const amounts = extractAmounts(text);
