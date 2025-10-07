@@ -1,4 +1,4 @@
-import { AIAnalysisRequest, AIAnalysisResponse, AIError } from '../types';
+import { AIAnalysisResponse, AIError } from '../types';
 import { aiService as mockAI } from './mockAI';
 
 class AIService {

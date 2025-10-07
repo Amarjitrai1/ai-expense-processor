@@ -1,7 +1,6 @@
 import React from 'react';
 import { X, FileText, Brain } from 'lucide-react';
 import { ProcessedExpense } from '../../types';
-import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { ConfidenceIndicator } from './ConfidenceIndicator';

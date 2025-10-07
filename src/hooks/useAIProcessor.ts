@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { ProcessedExpense, ProcessingStatus } from '../types';
+import { ProcessedExpense} from '../types';
 import { aiServiceInstance } from '../services/aiService';
 import { validateReceiptText } from '../utils/validation';
 
